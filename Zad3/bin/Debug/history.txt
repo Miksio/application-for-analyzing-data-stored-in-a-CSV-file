@@ -1,0 +1,19 @@
+
+
+02.04.2024 12:40:06: Ranking Stanów (Top 10) - Wynik: Ranking stanów według wartości skradzionych aut (Top 10):
+1. Texas - 537 935 366,00 zł
+2. Maryland - 25 351 207,00 zł
+3. Florida - 14 895 778,00 zł
+4. California - 13 995 392,00 zł
+5. Illinois - 9 186 860,00 zł
+6. Ohio - 8 219 917,00 zł
+7. Nevada - 7 235 686,00 zł
+8. Georgia - 5 597 798,00 zł
+9. Kentucky - 5 387 357,00 zł
+10. Missouri - 5 042 677,00 zł
+
+
+02.04.2024 12:40:07: Analiza stanu z najniższym procentem odzyskanych aut - Wynik: Montana - 0,0%
+
+02.04.2024 12:40:08: Analiza stanu z największą liczbą zgłoszeń kradzieży - Wynik: Ohio - 1594 zgłoszeń
+

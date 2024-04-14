@@ -1,0 +1,27 @@
+﻿<Window x:Class="Zad3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zad3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="24*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="btnLiczbaZgloszen" Click="btnLiczbaZgloszen_Click" Content="Pokaż łączną liczbę zgłoszonych kradzieży" HorizontalAlignment="Left" Margin="0,19,0,0" VerticalAlignment="Top" Width="304" Height="40" Grid.Column="1"/>
+        <Button Name="btnSredniaWartosc" Click="btnSredniaWartosc_Click" Content="Pokaż średnią wartość skradzionych aut na stan" VerticalAlignment="Top" Height="40" Margin="368,19,20,0" Grid.Column="1"/>
+        <Button Name="btnMaxZgloszenia" Click="btnMaxZgloszenia_Click" Content="Pokaż stan z największą liczbą zgłoszeń kradzieży" VerticalAlignment="Top" Height="40" Margin="0,86,464,0" Grid.Column="1"/>
+        <Button Name="btnMinZgloszenia" Click="btnMinZgloszenia_Click" Content="Pokaż stan z najmniejszą liczbą zgłoszeń kradzieży" VerticalAlignment="Top" Height="40" Margin="368,86,20,0" Grid.Column="1"/>
+        <Button Name="btnLacznaWartoscOdzyskanych" Click="btnLacznaWartoscOdzyskanych_Click" Content="Pokaż łączną wartość odzyskanych aut w kraju" VerticalAlignment="Top" Height="40" Margin="0,151,464,0" Grid.Column="1"/>
+        <Button Name="btnNajwyzszyProcentOdzyskanych" Click="btnNajwyzszyProcentOdzyskanych_Click" Content="Pokaż stan z najwyższym procentem odzyskanych aut" VerticalAlignment="Top" Height="40" Margin="368,151,20,0" Grid.Column="1"/>
+        <Button Name="btnNajnizszyProcentOdzyskanych" Click="btnNajnizszyProcentOdzyskanych_Click" Content="Pokaż stan z najniższym procentem odzyskanych aut" VerticalAlignment="Top" Height="40" Margin="0,215,464,0" Grid.Column="1"/>
+        <Button Name="btnStanWyzejSredniej" Click="btnStanWyzejSredniej_Click" Content="Pokaż stany z procentem odzyskanych aut &#xD;&#xA;wyższym niż średnia krajowa" VerticalAlignment="Top" Height="38" Margin="368,217,20,0" Grid.Column="1"/>
+        <Button Name="btnWartoscPowyzejSredniej" Click="btnWartoscPowyzejSredniej_Click" Content="Pokaż łączną wartość skradzionych aut w stanach &#xD;&#xA;z liczbą zgłoszeń powyżej średniej" VerticalAlignment="Top" Height="41" Margin="0,286,464,0" Grid.Column="1"/>
+        <Button Name="btnRankingSkradzionychAut" Click="btnRankingSkradzionychAut_Click" Content="Pokaż ranking stanów (Top 10) według wartości skradzionych aut" VerticalAlignment="Top" Height="41" Margin="368,286,20,0" Grid.Column="1"/>
+        <Button Name="btnShowHistory" Click="btnShowHistory_Click" Content="Pokaż historię analiz" VerticalAlignment="Top" Height="40" Width="200" Margin="245,367,323,0" Grid.Column="1"/>
+
+    </Grid>
+</Window>
